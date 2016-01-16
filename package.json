@@ -1,0 +1,36 @@
+{
+  "name": "code-problems",
+  "version": "1.0.0",
+  "description": "A collection of code problems and their solutions in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*-test.js --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankeetmaini/code-problems.git"
+  },
+  "author": "Ankeet Maini <ankeet.maini@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankeetmaini/code-problems/issues"
+  },
+  "homepage": "https://github.com/ankeetmaini/code-problems#readme",
+  "semistandard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "describe",
+      "beforeEach",
+      "afterEach",
+      "it",
+      "xit",
+      "expect"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "expect": "^1.13.4",
+    "semistandard": "^7.0.5"
+  }
+}
