@@ -1,4 +1,4 @@
-const List = (function () {
+const List = function () {
   let data = [];
   let position = 0;
 
@@ -70,6 +70,8 @@ const List = (function () {
     moveTo,
     getItemAt
   };
-}());
+};
 
-export default Object.create(List);
+export default function createList () {
+  return Object.create(List());
+}
