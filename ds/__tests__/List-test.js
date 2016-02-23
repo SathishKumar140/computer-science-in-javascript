@@ -2,7 +2,7 @@ import createList from '../List';
 import expect from 'expect';
 
 describe('List', () => {
-  var list;
+  let list;
   beforeEach(() => {
     list = createList();
   });
