@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha **/*/**-test.js --compilers js:babel-register",
-    "ok": "./node_modules/.bin/mocha **/*/**-test.js --compilers js:babel-register && node_modules/semistandard/bin/cmd.js --verbose"
+    "ok": "./node_modules/.bin/mocha **/*/**-test.js --compilers js:babel-register && node_modules/semistandard/bin/cmd.js --verbose",
+    "dev": "./node_modules/.bin/mocha **/*/**-test.js --compilers js:babel-register --watch"
   },
   "repository": {
     "type": "git",

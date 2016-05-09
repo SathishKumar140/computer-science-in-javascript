@@ -45,10 +45,32 @@ function LinkedList () {
     return toString;
   }
 
+  function remove (elem) {
+    if (elem === 'head') throw new Error('Can\'t delete HEAD');
+    let prevNode = findPrevious(elem);
+    let nodeToBeDeleted = find(elem);
+
+    if (prevNode) {
+      prevNode.next = nodeToBeDeleted.next;
+    }
+
+    function findPrevious (elem) {
+      let current = head;
+      while (current && current.next && current.next.value !== elem) {
+        current = current.next;
+      }
+
+      // if it reaches here, then current.next is the elem
+      // and current is the node.
+      if (current && current.next && current.next.value === elem) return current;
+    }
+  }
+
   return {
     find,
     insert,
-    show
+    show,
+    remove
   };
 }
 

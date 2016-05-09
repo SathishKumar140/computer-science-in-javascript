@@ -38,4 +38,19 @@ describe('LinkedList', () => {
     expect(linkedList.find('Kebabs').value).toEqual('Kebabs');
     expect(linkedList.find('Omelette')).toNotExist();
   });
+
+  it('finds an element alright', () => {
+    linkedList.insert('Carbs');
+    linkedList.insert('Kebabs');
+    linkedList.insert('Eggs');
+    linkedList.remove('Pasta');
+    expect(linkedList.show()).toEqual('head -> Carbs -> Kebabs -> Eggs');
+    linkedList.remove('Eggs');
+    expect(linkedList.show()).toEqual('head -> Carbs -> Kebabs');
+    linkedList.remove('Kebabs');
+    expect(linkedList.show()).toEqual('head -> Carbs');
+    linkedList.insert('Kebabs');
+    linkedList.remove('Carbs');
+    expect(linkedList.show()).toEqual('head -> Kebabs');
+  });
 });
