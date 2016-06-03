@@ -4,13 +4,13 @@
 function getInstance () {
   // this points to the pooled class,
   // as getInstance is called with Class context
+  let args = Array.prototype.slice.call(arguments);
   if (this.__instancePool.length) {
     let instance = this.__instancePool.pop();
-    this.apply(instance, arguments);
+    this.apply(instance, args);
     return instance;
   } else {
     // no instance in pool, create new
-    let args = Array.prototype.slice.call(arguments);
     return new (Function.prototype.bind.apply(this, [null].concat(args)));
   }
 }

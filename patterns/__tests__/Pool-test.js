@@ -63,9 +63,7 @@ describe('PoolClass', () => {
       log.push(a);
     };
     PoolableClassWithOneArgument.prototype.destructor = () => {};
-    Pool(
-      PoolableClassWithOneArgument
-    );
+    Pool(PoolableClassWithOneArgument);
     PoolableClassWithOneArgument.getInstance('new');
     expect(log).toEqual(['new']);
   });
@@ -76,9 +74,7 @@ describe('PoolClass', () => {
       log.push(a);
     };
     PoolableClassWithOneArgument.prototype.destructor = () => {};
-    Pool(
-      PoolableClassWithOneArgument
-    );
+    Pool(PoolableClassWithOneArgument);
     var instance = PoolableClassWithOneArgument.getInstance('new');
     PoolableClassWithOneArgument.release(instance);
     PoolableClassWithOneArgument.getInstance('old');
