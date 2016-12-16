@@ -1,5 +1,6 @@
-import createQueue from '../Queue';
 import expect from 'expect';
+
+import createQueue from '../Queue';
 
 describe('Queue', () => {
   let queue;

@@ -1,5 +1,6 @@
-import createStack from '../Stack';
 import expect from 'expect';
+
+import createStack from '../Stack';
 
 describe('Stack', () => {
   let stack;

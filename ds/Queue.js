@@ -1,8 +1,12 @@
 function Queue () {
-  let data = [];
+  const data = [];
 
   function enqueue (el) {
     data.push(el);
+  }
+
+  function length () {
+    return data.length;
   }
 
   function dequeue () {
@@ -24,17 +28,13 @@ function Queue () {
     return !length();
   }
 
-  function length () {
-    return data.length;
-  }
-
   return {
     enqueue,
     dequeue,
     front,
     back,
     isEmpty,
-    length
+    length,
   };
 }
 

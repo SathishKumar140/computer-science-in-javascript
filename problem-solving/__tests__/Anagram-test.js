@@ -1,5 +1,6 @@
-import Anagram from '../Anagram';
 import expect from 'expect';
+
+import Anagram from '../Anagram';
 
 describe('Anagram', () => {
   it('tells whether two strings are anagrams alright', () => {

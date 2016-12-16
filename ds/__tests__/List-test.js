@@ -1,5 +1,6 @@
-import createList from '../List';
 import expect from 'expect';
+
+import createList from '../List';
 
 describe('List', () => {
   let list;
@@ -25,21 +26,21 @@ describe('List', () => {
   it('finds an element alright', () => {
     const item = 'Don!';
     list.append(item);
-    const expected = list.find((i) => { return i === item; });
+    const expected = list.find(i => i === item);
     expect(item).toEqual(expected.item);
   });
 
   it('removes an element alright', () => {
     const item = 'Don!';
     list.append(item);
-    list.remove((i) => { return i === item; });
+    list.remove(i => i === item);
     expect(list.getItems()).toEqual([]);
   });
 
   it('not removes a non existent item', () => {
     const item = 'Don!';
     list.append(item);
-    list.remove((i) => { return i === 'Teddy'; });
+    list.remove(i => i === 'Teddy');
     expect(list.getItems()).toEqual([item]);
   });
 

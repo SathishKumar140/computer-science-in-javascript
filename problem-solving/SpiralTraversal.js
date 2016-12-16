@@ -18,7 +18,7 @@ export default function (arr) {
   let row = 0;
   let col = 0;
 
-  let spiralTraversed = [arr[row][col]];
+  const spiralTraversed = [arr[row][col]];
 
   while (leftBound <= rightBound && topBound <= bottomBound) {
     while (col < rightBound) {

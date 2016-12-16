@@ -13,11 +13,12 @@ function List () {
 
   function find (fn) {
     let foundObject;
-    data.some((item, index, array) => {
+    data.some((item, index) => {
       if (fn(item)) {
-        foundObject = {item, index};
+        foundObject = { item, index };
         return true;
       }
+      return false;
     });
     if (foundObject) return foundObject;
   }
@@ -81,7 +82,7 @@ function List () {
     prev,
     currentPos,
     moveTo,
-    getItemAt
+    getItemAt,
   };
 }
 

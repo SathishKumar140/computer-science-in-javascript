@@ -1,5 +1,5 @@
 function Stack () {
-  let data = [];
+  const data = [];
   // always points to the top of the stack
   // initialised to -1 when empty
   let top = -1;
@@ -32,7 +32,7 @@ function Stack () {
     pop,
     peek,
     length,
-    clear
+    clear,
   };
 }
 

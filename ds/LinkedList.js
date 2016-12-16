@@ -1,15 +1,15 @@
 function createNode (elem) {
   const Node = {
     value: null,
-    next: null
+    next: null,
   };
   return Object.create(Node, {
-    value: {writable: true, configurable: true, value: elem}
+    value: { writable: true, configurable: true, value: elem },
   });
 }
 
 function LinkedList () {
-  let head = createNode('head');
+  const head = createNode('head');
 
   function find (el) {
     let currentNode = head;
@@ -28,8 +28,8 @@ function LinkedList () {
   }
 
   function insert (newEl, afterEl) {
-    let currentNode = find(afterEl) || find();
-    let newNode = createNode(newEl);
+    const currentNode = find(afterEl) || find();
+    const newNode = createNode(newEl);
     newNode.next = currentNode.next;
     currentNode.next = newNode;
   }
@@ -46,23 +46,23 @@ function LinkedList () {
   }
 
   function remove (elem) {
-    if (elem === 'head') throw new Error('Can\'t delete HEAD');
-    let prevNode = findPrevious(elem);
-    let nodeToBeDeleted = find(elem);
-
-    if (prevNode) {
-      prevNode.next = nodeToBeDeleted.next;
-    }
-
-    function findPrevious (elem) {
+    function findPrevious (element) {
       let current = head;
-      while (current && current.next && current.next.value !== elem) {
+      while (current && current.next && current.next.value !== element) {
         current = current.next;
       }
 
-      // if it reaches here, then current.next is the elem
+      // if it reaches here, then current.next is the element
       // and current is the node.
-      if (current && current.next && current.next.value === elem) return current;
+      if (current && current.next && current.next.value === element) return current;
+    }
+
+    if (elem === 'head') throw new Error('Can\'t delete HEAD');
+    const prevNode = findPrevious(elem);
+    const nodeToBeDeleted = find(elem);
+
+    if (prevNode) {
+      prevNode.next = nodeToBeDeleted.next;
     }
   }
 
@@ -70,7 +70,7 @@ function LinkedList () {
     find,
     insert,
     show,
-    remove
+    remove,
   };
 }
 

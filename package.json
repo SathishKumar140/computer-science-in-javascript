@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha **/*/**-test.js --compilers js:babel-register",
-    "ok": "./node_modules/.bin/mocha **/*/**-test.js --compilers js:babel-register && node_modules/semistandard/bin/cmd.js --verbose",
+    "ok": "./node_modules/.bin/mocha **/*/**-test.js --compilers js:babel-register && npm run lint",
+    "lint": "./node_modules/.bin/eslint algorithms/** ds/** patterns/** problem-solving/**",
     "dev": "./node_modules/.bin/mocha **/*/**-test.js --compilers js:babel-register --watch"
   },
   "repository": {
@@ -18,23 +19,13 @@
     "url": "https://github.com/ankeetmaini/computer-science-in-javascript/issues"
   },
   "homepage": "https://github.com/ankeetmaini/computer-science-in-javascript#readme",
-  "semistandard": {
-    "parser": "babel-eslint",
-    "globals": [
-      "describe",
-      "beforeEach",
-      "afterEach",
-      "it",
-      "xit",
-      "expect"
-    ]
-  },
   "devDependencies": {
-    "babel-eslint": "^4.1.8",
     "babel-preset-es2015": "^6.3.13",
     "babel-register": "^6.4.3",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
     "expect": "^1.13.4",
-    "mocha": "^2.4.5",
-    "semistandard": "^7.0.5"
+    "mocha": "^2.4.5"
   }
 }

@@ -1,5 +1,6 @@
-import createLinkedList from '../LinkedList';
 import expect from 'expect';
+
+import createLinkedList from '../LinkedList';
 
 describe('LinkedList', () => {
   let linkedList;
