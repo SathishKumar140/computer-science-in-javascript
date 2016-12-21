@@ -4,10 +4,10 @@
   "description": "A collection of data structures, algorithms, code problems and their solutions in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha **/*/**-test.js --compilers js:babel-register",
-    "ok": "./node_modules/.bin/mocha **/*/**-test.js --compilers js:babel-register && npm run lint",
-    "lint": "./node_modules/.bin/eslint algorithms/** ds/** patterns/** problem-solving/**",
-    "dev": "./node_modules/.bin/mocha **/*/**-test.js --compilers js:babel-register --watch"
+    "test": "./node_modules/.bin/mocha src/**/*-test.js --compilers js:babel-register",
+    "ok": "./node_modules/.bin/mocha src/**/*-test.js --compilers js:babel-register && npm run lint",
+    "lint": "./node_modules/.bin/eslint src/**",
+    "dev": "./node_modules/.bin/mocha src/**/*-test.js --compilers js:babel-register --watch"
   },
   "repository": {
     "type": "git",
