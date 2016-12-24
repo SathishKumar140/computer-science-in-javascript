@@ -1,0 +1,1 @@
+- [25 Horses Problem](http://www.programmerinterview.com/index.php/puzzles/25-horses-3-fastest-5-races-puzzle/)
