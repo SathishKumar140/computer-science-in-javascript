@@ -4,6 +4,8 @@ function swap (arr, a, b) {
   arr[b] = temp;
 }
 
+// i goes from 0 - length and with every new iteration
+// it keeps the array sorted from 0 - i
 export default function InsertionSort (arr) {
   for (let i = 1; i < arr.length; i++) {
     let j = i;
