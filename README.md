@@ -16,6 +16,7 @@ npm test
   - Sorting
     - [Insertion Sort](src/algorithms/sorting/InsertionSort.js)
     - [Selection Sort](src/algorithms/sorting/SelectionSort.js)
+    - [Quick Sort](src/algorithms/sorting/QuickSort.js)
   - [Binary Search](src/algorithms/BinarySearch.js)
 
 ## Patterns
