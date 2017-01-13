@@ -20,3 +20,5 @@ rules:
   no-bitwise: 0
   one-var-declaration-per-line: 0
   one-var: 0
+  no-useless-return: 0
+  no-use-before-define: 1

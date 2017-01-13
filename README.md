@@ -10,6 +10,7 @@ npm test
   - [Stack](src/ds/Stack.js)
   - [Linked List](src/ds/LinkedList.js)
   - [Queue](src/ds/Queue.js)
+  - [Binary Search Tree](src/ds/BinarySearchTree.js)
 
 ## Algorithms
   - Sorting
