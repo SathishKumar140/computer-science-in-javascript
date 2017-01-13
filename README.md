@@ -8,7 +8,6 @@ npm test
 
 ## Data Structures
   - [Stack](src/ds/Stack.js)
-  - [List](src/ds/List.js)
   - [Linked List](src/ds/LinkedList.js)
   - [Queue](src/ds/Queue.js)
 
