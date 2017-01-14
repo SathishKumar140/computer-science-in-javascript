@@ -13,11 +13,15 @@ npm test
   - [Binary Search Tree](src/ds/BinarySearchTree.js)
 
 ## Algorithms
-  - Sorting
+  - [Sorting](src/algorithms/sorting)
     - [Insertion Sort](src/algorithms/sorting/InsertionSort.js)
     - [Selection Sort](src/algorithms/sorting/SelectionSort.js)
     - [Quick Sort](src/algorithms/sorting/QuickSort.js)
   - [Binary Search](src/algorithms/BinarySearch.js)
+  - [Tree Traversal](src/algorithms/tree-traversals)
+    - [In Order](src/algorithms/tree-traversals/InOrderTraversal.js)
+    - [Pre Order](src/algorithms/tree-traversals/PreOrderTraversal.js)
+    - [Post Order](src/algorithms/tree-traversals/PostOrderTraversal.js)
 
 ## Patterns
   - [Memoize](src/patterns/Memoize.js)
