@@ -34,6 +34,7 @@ npm test
   - [Spiral Traversal](src/problem-solving/SpiralTraversal.js)
   - [The Trip](src/problem-solving/TheTrip.js)
   - [Longest Common Subsequence](src/problem-solving/LongestCommonSubsequence.js)
+  - [Coin Change](src/problem-solving/CoinChange.js)
 
 
 # [Notes](/docs)
