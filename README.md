@@ -35,6 +35,7 @@ npm test
   - [The Trip](src/problem-solving/TheTrip.js)
   - [Longest Common Subsequence](src/problem-solving/LongestCommonSubsequence.js)
   - [Coin Change](src/problem-solving/CoinChange.js)
+  - [Activity Selection](src/problem-solving/ActivitySelection.js)
 
 
 # [Notes](/docs)
