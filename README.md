@@ -36,6 +36,7 @@ npm test
   - [Longest Common Subsequence](src/problem-solving/LongestCommonSubsequence.js)
   - [Coin Change](src/problem-solving/CoinChange.js)
   - [Activity Selection](src/problem-solving/ActivitySelection.js)
+  - [Find Odd Occurrences](src/problem-solving/FindOddOccurrences.js)
 
 
 # [Notes](/docs)
