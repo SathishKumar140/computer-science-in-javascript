@@ -2,7 +2,7 @@ import createLinkedList from '../ds/LinkedList';
 
 // http://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/
 
-// imput array to construct a LinkedList, and then find the middle element
+// input array to construct a LinkedList, and then find the middle element
 export default function MidElementLinkedList (arr = []) {
   // constructing linked list
   const list = createLinkedList();

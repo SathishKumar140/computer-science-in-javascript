@@ -1,12 +1,20 @@
-function createNode (elem) {
-  return {
-    value: elem,
-    next: null,
-  };
+export const HEAD = '__@[[[HEAD]]]@__';
+
+function createNode (elem, isHead) {
+  return Object.defineProperties({}, {
+    value: {
+      value: isHead ? HEAD : elem,
+      writable: !isHead,
+    },
+    next: {
+      value: null,
+      writable: true,
+    },
+  });
 }
 
 export default function LinkedList () {
-  const head = createNode('head');
+  const head = createNode(null, true);
 
   function find (el) {
     let currentNode = head;
@@ -50,7 +58,7 @@ export default function LinkedList () {
       if (current && current.next && current.next.value === element) return current;
     }
 
-    if (elem === 'head') throw new Error('Can\'t delete HEAD');
+    if (elem === HEAD) throw new Error('Can\'t delete HEAD');
     const prevNode = findPrevious(elem);
     const nodeToBeDeleted = find(elem);
 
@@ -59,12 +67,12 @@ export default function LinkedList () {
     }
   }
 
-  return {
-    find,
-    insert,
-    show,
-    remove,
-    getHead: () => head,
-  };
+  return Object.defineProperties(head, {
+    find: { value: find },
+    insert: { value: insert },
+    show: { value: show },
+    remove: { value: remove },
+    getHead: { value: () => head },
+  });
 }
 

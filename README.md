@@ -37,6 +37,7 @@ npm test
   - [Coin Change](src/problem-solving/CoinChange.js)
   - [Activity Selection](src/problem-solving/ActivitySelection.js)
   - [Find Odd Occurrences](src/problem-solving/FindOddOccurrences.js)
+  - [Print Mid Element in a LinkedList](src/problem-solving/PrintMidElementLinkedList.js)
 
 
 # [Notes](/docs)

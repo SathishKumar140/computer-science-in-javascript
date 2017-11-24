@@ -1,19 +1,19 @@
 import expect from 'expect';
 
-import createLinkedList from '../LinkedList';
+import LinkedList, { HEAD } from '../LinkedList';
 
 describe('LinkedList', () => {
   let linkedList;
 
   beforeEach(() => {
-    linkedList = createLinkedList();
+    linkedList = LinkedList();
   });
 
   it('adds fine at the start of linked list', () => {
     linkedList.insert('Carbs');
     linkedList.insert('Kebabs');
     linkedList.insert('Eggs');
-    expect(linkedList.show()).toEqual('head -> Eggs -> Kebabs -> Carbs');
+    expect(linkedList.show()).toEqual(`${HEAD} -> Eggs -> Kebabs -> Carbs`);
   });
 
   it('adds fine at the mid of linked list', () => {
@@ -21,7 +21,7 @@ describe('LinkedList', () => {
     linkedList.insert('Kebabs');
     linkedList.insert('Eggs');
     linkedList.insert('Salami', 'Kebabs');
-    expect(linkedList.show()).toEqual('head -> Eggs -> Kebabs -> Salami -> Carbs');
+    expect(linkedList.show()).toEqual(`${HEAD} -> Eggs -> Kebabs -> Salami -> Carbs`);
   });
 
   it('adds fine at the start when after element does not exist', () => {
@@ -29,7 +29,7 @@ describe('LinkedList', () => {
     linkedList.insert('Kebabs');
     linkedList.insert('Eggs');
     linkedList.insert('Salami', 'Potato');
-    expect(linkedList.show()).toEqual('head -> Salami -> Eggs -> Kebabs -> Carbs');
+    expect(linkedList.show()).toEqual(`${HEAD} -> Salami -> Eggs -> Kebabs -> Carbs`);
   });
 
   it('finds an element alright', () => {
@@ -45,13 +45,13 @@ describe('LinkedList', () => {
     linkedList.insert('Kebabs');
     linkedList.insert('Eggs');
     linkedList.remove('Pasta');
-    expect(linkedList.show()).toEqual('head -> Eggs -> Kebabs -> Carbs');
+    expect(linkedList.show()).toEqual(`${HEAD} -> Eggs -> Kebabs -> Carbs`);
     linkedList.remove('Eggs');
-    expect(linkedList.show()).toEqual('head -> Kebabs -> Carbs');
+    expect(linkedList.show()).toEqual(`${HEAD} -> Kebabs -> Carbs`);
     linkedList.remove('Kebabs');
-    expect(linkedList.show()).toEqual('head -> Carbs');
+    expect(linkedList.show()).toEqual(`${HEAD} -> Carbs`);
     linkedList.insert('Kebabs');
     linkedList.remove('Carbs');
-    expect(linkedList.show()).toEqual('head -> Kebabs');
+    expect(linkedList.show()).toEqual(`${HEAD} -> Kebabs`);
   });
 });

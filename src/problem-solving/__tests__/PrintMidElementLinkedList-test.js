@@ -1,6 +1,7 @@
 import expect from 'expect';
 
 import PrintMidElementLinkedList from '../PrintMidElementLinkedList';
+import { HEAD } from '../../ds/LinkedList';
 
 describe('PrintMidElementLinkedList', () => {
   it('prints middle element just fine', () => {
@@ -20,6 +21,6 @@ describe('PrintMidElementLinkedList', () => {
   });
 
   it('prints middle element just fine for no element', () => {
-    expect(PrintMidElementLinkedList([])).toEqual('head');
+    expect(PrintMidElementLinkedList([])).toEqual(HEAD);
   });
 });
