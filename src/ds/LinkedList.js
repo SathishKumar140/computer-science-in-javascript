@@ -1,14 +1,11 @@
 function createNode (elem) {
-  const Node = {
-    value: null,
+  return {
+    value: elem,
     next: null,
   };
-  return Object.create(Node, {
-    value: { writable: true, configurable: true, value: elem },
-  });
 }
 
-function LinkedList () {
+export default function LinkedList () {
   const head = createNode('head');
 
   function find (el) {
@@ -19,11 +16,7 @@ function LinkedList () {
       }
       return currentNode;
     }
-    // no el was given, find the end of linked list
-    while (currentNode) {
-      if (!currentNode.next) return currentNode;
-      currentNode = currentNode.next;
-    }
+    // no el was given, return head
     return currentNode;
   }
 
@@ -71,9 +64,7 @@ function LinkedList () {
     insert,
     show,
     remove,
+    getHead: () => head,
   };
 }
 
-export default function createLinkedList () {
-  return Object.create(LinkedList());
-}
