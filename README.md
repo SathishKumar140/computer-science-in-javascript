@@ -38,6 +38,9 @@ npm test
   - [Activity Selection](src/problem-solving/ActivitySelection.js)
   - [Find Odd Occurrences](src/problem-solving/FindOddOccurrences.js)
   - [Print Mid Element in a LinkedList](src/problem-solving/PrintMidElementLinkedList.js)
+  - [Detect cycle in a LinkedList](src/problem-solving/DetectLinkedListCycle.js)
+  - [Remove cycle in a LinkedList](src/problem-solving/RemoveLinkedListCycle.js)
+
 
 
 # [Notes](/docs)
