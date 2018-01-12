@@ -1,13 +1,24 @@
 {
   "name": "computer-science-in-javascript",
   "version": "1.0.0",
-  "description": "A collection of data structures, algorithms, code problems and their solutions in JavaScript",
+  "description":
+    "A collection of data structures, algorithms, code problems and their solutions in JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha src/**/*-test.js --compilers js:babel-register",
-    "ok": "./node_modules/.bin/mocha src/**/*-test.js --compilers js:babel-register && npm run lint",
+    "ok":
+      "./node_modules/.bin/mocha src/**/*-test.js --compilers js:babel-register && npm run lint",
     "lint": "./node_modules/.bin/eslint src/**",
-    "dev": "./node_modules/.bin/mocha src/**/*-test.js --compilers js:babel-register --watch"
+    "lint:fix": "./node_modules/.bin/eslint --fix src/**",
+    "dev": "./node_modules/.bin/mocha src/**/*-test.js --compilers js:babel-register --watch",
+    "precommit": "lint-staged"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true
+  },
+  "lint-staged": {
+    "src/**/*.js": ["prettier --write", "npm run lint:fix", "npm run lint", "git add"]
   },
   "repository": {
     "type": "git",
@@ -26,6 +37,9 @@
     "eslint-config-airbnb-base": "^11.0.0",
     "eslint-plugin-import": "^2.2.0",
     "expect": "^1.13.4",
-    "mocha": "^2.4.5"
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "mocha": "^2.4.5",
+    "prettier": "1.10.2"
   }
 }
