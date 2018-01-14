@@ -1,13 +1,11 @@
 {
   "name": "computer-science-in-javascript",
   "version": "1.0.0",
-  "description":
-    "A collection of data structures, algorithms, code problems and their solutions in JavaScript",
+  "description": "A collection of data structures, algorithms, code problems and their solutions in JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha src/**/*-test.js --compilers js:babel-register",
-    "ok":
-      "./node_modules/.bin/mocha src/**/*-test.js --compilers js:babel-register && npm run lint",
+    "ok": "./node_modules/.bin/mocha src/**/*-test.js --compilers js:babel-register && npm run lint",
     "lint": "./node_modules/.bin/eslint src/**",
     "lint:fix": "./node_modules/.bin/eslint --fix src/**",
     "dev": "./node_modules/.bin/mocha src/**/*-test.js --compilers js:babel-register --watch",
@@ -18,7 +16,12 @@
     "singleQuote": true
   },
   "lint-staged": {
-    "src/**/*.js": ["prettier --write", "npm run lint:fix", "npm run lint", "git add"]
+    "src/**/*.js": [
+      "prettier --write",
+      "npm run lint:fix",
+      "npm run lint",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
@@ -41,5 +44,8 @@
     "lint-staged": "^6.0.0",
     "mocha": "^2.4.5",
     "prettier": "1.10.2"
+  },
+  "dependencies": {
+    "bignumber.js": "^5.0.0"
   }
 }

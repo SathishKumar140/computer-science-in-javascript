@@ -46,5 +46,6 @@ npm test
 * [Detect cycle in a LinkedList](src/problem-solving/DetectLinkedListCycle.js)
 * [Remove cycle in a LinkedList](src/problem-solving/RemoveLinkedListCycle.js)
 * [Hackerland Radio Transmitters](src/problem-solving/HackerlandRadioTransmitters.js)
+* [Gridland Metro](src/problem-solving/GridlandMetro.js)
 
 # [Notes](/docs)
