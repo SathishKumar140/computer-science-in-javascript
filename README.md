@@ -25,6 +25,8 @@ npm test
   * [In Order](src/algorithms/tree-traversals/InOrderTraversal.js)
   * [Pre Order](src/algorithms/tree-traversals/PreOrderTraversal.js)
   * [Post Order](src/algorithms/tree-traversals/PostOrderTraversal.js)
+* [Graph](src/algorithms/graphs)
+  * [Breadth First Search](src/algorithms/graphs/BreadthFirstSearch.js)
 
 ## Patterns
 
