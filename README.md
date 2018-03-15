@@ -49,5 +49,6 @@ npm test
 * [Remove cycle in a LinkedList](src/problem-solving/RemoveLinkedListCycle.js)
 * [Hackerland Radio Transmitters](src/problem-solving/HackerlandRadioTransmitters.js)
 * [Gridland Metro](src/problem-solving/GridlandMetro.js)
+* [BFS Shortest Reach](src/problem-solving/BreadthFirstSearchShortestReach.js)
 
 # [Notes](/docs)
