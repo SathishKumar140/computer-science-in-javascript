@@ -50,5 +50,6 @@ npm test
 * [Hackerland Radio Transmitters](src/problem-solving/HackerlandRadioTransmitters.js)
 * [Gridland Metro](src/problem-solving/GridlandMetro.js)
 * [BFS Shortest Reach](src/problem-solving/BreadthFirstSearchShortestReach.js)
+* [Binary Tree Right Side View](src/problem-solving/BinaryTreeRightSideView.js)
 
 # [Notes](/docs)
