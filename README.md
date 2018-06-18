@@ -51,5 +51,6 @@ npm test
 * [Gridland Metro](src/problem-solving/GridlandMetro.js)
 * [BFS Shortest Reach](src/problem-solving/BreadthFirstSearchShortestReach.js)
 * [Binary Tree Right Side View](src/problem-solving/BinaryTreeRightSideView.js)
+* [Binary Tree Min Depth](src/problem-solving/BinaryTreeMinDepth.js)
 
 # [Notes](/docs)
