@@ -53,5 +53,6 @@ npm test
 * [Binary Tree Right Side View](src/problem-solving/BinaryTreeRightSideView.js)
 * [Binary Tree Min Depth](src/problem-solving/BinaryTreeMinDepth.js)
 * [Binary Tree Max Depth](src/problem-solving/BinaryTreeMaxDepth.js)
+* [Balanced Binary Tree](src/problem-solving/BalancedBinaryTree.js)
 
 # [Notes](/docs)
