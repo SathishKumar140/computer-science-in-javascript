@@ -54,5 +54,6 @@ npm test
 * [Binary Tree Min Depth](src/problem-solving/BinaryTreeMinDepth.js)
 * [Binary Tree Max Depth](src/problem-solving/BinaryTreeMaxDepth.js)
 * [Balanced Binary Tree](src/problem-solving/BalancedBinaryTree.js)
+* [Binary Tree Level Order Reverse](src/problem-solving/BinaryTreeLevelOrderReverse.js)
 
 # [Notes](/docs)
