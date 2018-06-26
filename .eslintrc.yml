@@ -22,3 +22,4 @@ rules:
   one-var: 0
   no-useless-return: 0
   no-use-before-define: 1
+  no-confusing-arrow: 1
