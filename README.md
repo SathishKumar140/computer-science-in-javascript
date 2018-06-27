@@ -58,5 +58,6 @@ npm test
 * [LeetCode: Binary Tree Zig Zag Traversal](src/problem-solving/BinaryTreeZigZagTraversal.js)
 * [LeetCode: Surrounded Regions](src/problem-solving/SurroundedRegions.js)
 * [LeetCode: Number of Islands](src/problem-solving/NumberOfIslands.js)
+* [LeetCode: Water Trapping Problem](src/problem-solving/WaterTrappingProblem.js)
 
 # [Notes](/docs)
