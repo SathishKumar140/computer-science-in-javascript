@@ -57,5 +57,6 @@ npm test
 * [LeetCode: Binary Tree Level Order Reverse](src/problem-solving/BinaryTreeLevelOrderReverse.js)
 * [LeetCode: Binary Tree Zig Zag Traversal](src/problem-solving/BinaryTreeZigZagTraversal.js)
 * [LeetCode: Surrounded Regions](src/problem-solving/SurroundedRegions.js)
+* [LeetCode: Number of Islands](src/problem-solving/NumberOfIslands.js)
 
 # [Notes](/docs)
