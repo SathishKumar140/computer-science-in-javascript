@@ -59,5 +59,6 @@ npm test
 * [LeetCode: Surrounded Regions](src/problem-solving/SurroundedRegions.js)
 * [LeetCode: Number of Islands](src/problem-solving/NumberOfIslands.js)
 * [LeetCode: Water Trapping Problem](src/problem-solving/WaterTrappingProblem.js)
+* [LeetCode: Redundant Connection](src/problem-solving/RedundantConnection.js)
 
 # [Notes](/docs)
