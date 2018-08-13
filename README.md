@@ -60,5 +60,6 @@ npm test
 * [LeetCode: Number of Islands](src/problem-solving/NumberOfIslands.js)
 * [LeetCode: Water Trapping Problem](src/problem-solving/WaterTrappingProblem.js)
 * [LeetCode: Redundant Connection](src/problem-solving/RedundantConnection.js)
+* [LeetCode: Top K Frequent Elements](src/problem-solving/TopKFrequentElements.js)
 
 # [Notes](/docs)
