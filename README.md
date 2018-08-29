@@ -62,5 +62,6 @@ npm test
 * [LeetCode: Redundant Connection](src/problem-solving/RedundantConnection.js)
 * [LeetCode: Top K Frequent Elements](src/problem-solving/TopKFrequentElements.js)
 * [LeetCode: Longest Common Prefix](src/problem-solving/LongestCommonPrefix.js)
+* [LeetCode: Remove Nth Node From End of List](src/problem-solving/RemoveNthNodeFromEnd.js)
 
 # [Notes](/docs)
