@@ -64,4 +64,6 @@ npm test
 * [LeetCode: Longest Common Prefix](src/problem-solving/LongestCommonPrefix.js)
 * [LeetCode: Remove Nth Node From End of List](src/problem-solving/RemoveNthNodeFromEnd.js)
 * [LeetCode: Letter Combinations of a Phone Number](src/problem-solving/LetterCombinationsOfPhoneNumber.js)
+* [LeetCode: Generate Parentheses](src/problem-solving/GenerateParentheses.js)
+
   # [Notes](/docs)
