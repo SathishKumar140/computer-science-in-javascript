@@ -66,6 +66,7 @@ npm test
 * [LeetCode: Letter Combinations of a Phone Number](src/problem-solving/LetterCombinationsOfPhoneNumber.js)
 * [LeetCode: Generate Parentheses](src/problem-solving/GenerateParentheses.js)
 * [LeetCode: Valid Parentheses](src/problem-solving/ValidParentheses.js)
+* [LeetCode: Subsets](src/problem-solving/Subsets.js)
 * [Backtracking: Dice Roll](src/problem-solving/DiceRoll.js)
 
   # [Notes](/docs)
