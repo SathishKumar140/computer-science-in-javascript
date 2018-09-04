@@ -67,6 +67,7 @@ npm test
 * [LeetCode: Generate Parentheses](src/problem-solving/GenerateParentheses.js)
 * [LeetCode: Valid Parentheses](src/problem-solving/ValidParentheses.js)
 * [LeetCode: Subsets](src/problem-solving/Subsets.js)
+* [LeetCode: Permutations](src/problem-solving/Permute.js)
 * [Backtracking: Dice Roll](src/problem-solving/DiceRoll.js)
 
   # [Notes](/docs)
