@@ -70,6 +70,7 @@ npm test
 * [LeetCode: Subsets](src/problem-solving/Subsets.js)
 * [LeetCode: Permutations](src/problem-solving/Permute.js)
 * [LeetCode: Combination Sum](src/problem-solving/CombinationSum.js)
+* [LeetCode: Combination Sum II](src/problem-solving/CombinationSum-II.js)
 
 * [Backtracking: Dice Roll](src/problem-solving/DiceRoll.js)
 
