@@ -71,6 +71,7 @@ npm test
 * [LeetCode: Permutations](src/problem-solving/Permute.js)
 * [LeetCode: Combination Sum](src/problem-solving/CombinationSum.js)
 * [LeetCode: Combination Sum II](src/problem-solving/CombinationSum-II.js)
+* [LeetCode: First Missing Positive](src/problem-solving/FirstMissingPositive.js)
 
 * [Backtracking: Dice Roll](src/problem-solving/DiceRoll.js)
 
