@@ -73,6 +73,7 @@ npm test
 * [LeetCode: Combination Sum II](src/problem-solving/CombinationSum-II.js)
 * [LeetCode: Combination Sum III](src/problem-solving/CombinationSum-III.js)
 * [LeetCode: First Missing Positive](src/problem-solving/FirstMissingPositive.js)
+* [LeetCode: Delete Node in a Linked List](src/problem-solving/DeleteLinkedListNode.js)
 
 * [Backtracking: Dice Roll](src/problem-solving/DiceRoll.js)
 
